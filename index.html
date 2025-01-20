@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="موقع الملك اليماني - خدمات احترافية ومتطورة">
+    <meta name="author" content="Aliqateebah">
+    <title>الملك اليماني</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- الشريط العلوي (Navigation Bar) -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">عن الموقع</a></li>
+                <li><a href="#">الخدمات</a>
+                    <ul>
+                        <li><a href="#">خدمة 1</a></li>
+                        <li><a href="#">خدمة 2</a></li>
+                        <li><a href="#">خدمة 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- شريط التمرير للصور -->
+    <section class="image-slider">
+        <img src="https://via.placeholder.com/1200x400" alt="Image 1">
+        <img src="https://via.placeholder.com/1200x400" alt="Image 2">
+        <img src="https://via.placeholder.com/1200x400" alt="Image 3">
+    </section>
+
+    <!-- مقدمة الموقع -->
+    <section class="intro">
+        <h1>مرحبًا في موقع الملك اليماني</h1>
+        <p>نحن نقدم خدمات احترافية في مجال التصميم والتطوير مع التركيز على الجودة والابتكار.</p>
+    </section>
+
+    <!-- الخدمات -->
+    <section class="services">
+        <h2>خدماتنا</h2>
+        <div class="card">
+            <h3>خدمة 1</h3>
+            <p>وصف الخدمة 1</p>
+        </div>
+        <div class="card">
+            <h3>خدمة 2</h3>
+            <p>وصف الخدمة 2</p>
+        </div>
+        <div class="card">
+            <h3>خدمة 3</h3>
+            <p>وصف الخدمة 3</p>
+        </div>
+    </section>
+
+    <!-- نموذج الاتصال -->
+    <section class="contact-form">
+        <h2>اتصل بنا</h2>
+        <form>
+            <input type="text" placeholder="الاسم" required>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <textarea placeholder="رسالتك" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <!-- الشهادات -->
+    <section class="testimonials">
+        <h2>آراء عملائنا</h2>
+        <div class="testimonial-card">
+            <p>"الخدمة رائعة وسريعة!"</p>
+            <h4>أحمد علي</h4>
+        </div>
+    </section>
+
+    <!-- الأسئلة المتكررة (FAQ) -->
+    <section class="faq">
+        <h2>الأسئلة المتكررة</h2>
+        <div class="faq-item">
+            <h3>ما هي الخدمة التي تقدمها؟</h3>
+            <p>نحن نقدم خدمات إلكترونية متطورة في عدة مجالات...</p>
+        </div>
+    </section>
+
+    <!-- اللغة -->
+    <section class="language-selector">
+        <select id="language-selector" onchange="changeLanguage()">
+            <option value="ar">العربية</option>
+            <option value="en">English</option>
+        </select>
+    </section>
+</body>
+</html>
